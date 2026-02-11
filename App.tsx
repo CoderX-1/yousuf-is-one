@@ -193,7 +193,7 @@ const App: React.FC = () => {
           <h2 className="text-2xl sm:text-4xl font-bold mb-6 text-amber-400 serif text-left">Yoo, {babyName}!</h2>
           <div className="space-y-6 sm:space-y-8 text-base sm:text-xl md:text-2xl text-slate-300 leading-relaxed text-left serif italic">
             <p>
-              Abhi tum bade ho rahe ho, aur har saal tumhara yeh digital "Time Capsule" bhi tumhare sath bharha hai. 
+              Abhi tum bare ho rahe ho, aur har saal tumhara yeh digital "Time Capsule" bhi tumhare sath bharha hai. 
             </p>
           </div>
           <div className="mt-10 pt-8 border-t border-slate-800/50 flex flex-col md:flex-row items-center justify-between gap-6">
@@ -269,9 +269,7 @@ const App: React.FC = () => {
                 <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/vid-thumb/800/400')] bg-cover bg-center opacity-30 group-hover/vid:scale-110 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-slate-900/40" />
                 <PlayCircle className="w-16 h-16 sm:w-24 sm:h-24 text-amber-500 relative z-10 group-hover/vid-card:scale-110 transition-transform" />
-                <div className="relative z-10 text-center mt-6">
-                  <p className="text-slate-300 text-sm sm:text-base italic px-4 font-medium">Click to play your first birthday memories.</p>
-                </div>
+                  <span className="absolute bottom-4 text-[10px] font-black uppercase tracking-widest text-amber-500/80 z-10">Play Video</span>
               </div>
               <div className="mt-8 flex justify-between items-center px-2">
                 <div className="flex items-center gap-2">
