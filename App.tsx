@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Heart, Stars, Sparkles, BookOpen, Camera, Video, History, Quote, MessageCircleHeart, PlayCircle, Rocket, Gift, X } from 'lucide-react';
 import StarsBackground from './components/StarsBackground';
+import MusicBackground from './components/MusicBackground';
 import { MILESTONES, WORLD_TRENDS } from './constants';
 import { GuestMessage } from './types';
 
@@ -170,6 +171,7 @@ const App: React.FC = () => {
   return (
     <div className="relative min-h-screen text-slate-100 overflow-x-hidden selection:bg-amber-500 selection:text-slate-900 bg-[#010409]">
       <StarsBackground />
+      <MusicBackground />
 
       {/* Hero Section */}
       <header className="relative z-10 pt-20 pb-16 sm:pt-32 sm:pb-24 px-4 sm:px-6 text-center max-w-5xl mx-auto">
