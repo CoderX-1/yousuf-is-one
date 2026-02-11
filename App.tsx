@@ -182,7 +182,7 @@ const App: React.FC = () => {
         </div>
         
         <h1 className="reveal delay-100 text-5xl sm:text-7xl md:text-9xl font-black mb-6 sm:mb-10 gold-gradient drop-shadow-[0_0_20px_rgba(217,119,6,0.3)] leading-[1.1]">
-          Yousuf's Legacy
+          Yousuf's Birthday
         </h1>
         
         <p className="reveal delay-200 text-lg sm:text-2xl md:text-3xl text-slate-400 italic mb-12 sm:mb-16 serif max-w-3xl mx-auto leading-relaxed font-light px-4">
