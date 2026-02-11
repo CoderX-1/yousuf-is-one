@@ -6,7 +6,7 @@ interface MusicBackgroundProps {
 }
 
 const MusicBackground: React.FC<MusicBackgroundProps> = ({ 
-  src = '/music.mp3', 
+  src = 'music.mp3', 
   autoPlay = true 
 }) => {
   const audioRef = useRef<HTMLAudioElement>(null);
