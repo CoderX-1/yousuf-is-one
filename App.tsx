@@ -201,14 +201,7 @@ const App: React.FC = () => {
               <History className="w-4 h-4 sm:w-5 sm:h-5" />
               <span>Full Archive Unlocks: {targetYear}</span>
             </div>
-            <div className="flex -space-x-2 sm:-space-x-3">
-               {[1,2,3,4,5].map(i => (
-                 <div key={i} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-slate-900 bg-slate-800 overflow-hidden">
-                    <img src={`https://i.pravatar.cc/100?img=${i+15}`} alt="Family Member" />
-                 </div>
-               ))}
-               <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-slate-900 bg-amber-500 flex items-center justify-center text-slate-900 text-[10px] sm:text-xs font-black">+Fam</div>
-            </div>
+           
           </div>
         </div>
       </header>
