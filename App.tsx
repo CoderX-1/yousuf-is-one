@@ -148,10 +148,10 @@ const App: React.FC = () => {
   // Placeholder URLs - Users can replace these with real URLs
   const videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4"; // Replace with real video URL
   const babyPhotos = [
-    `/bacha.jpeg`,
-    `/bacha3.jpeg`,
-    `/bacha2.jpeg`,
-    `/bacha1.jpeg`,
+    `bacha.jpeg`,
+    `bacha3.jpeg`,
+    `bacha2.jpeg`,
+    `bacha1.jpeg`,
   ];
 
   useEffect(() => {
