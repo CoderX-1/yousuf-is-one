@@ -263,14 +263,13 @@ const App: React.FC = () => {
                 <div className="p-3 bg-amber-500/10 rounded-2xl">
                   <Video className="w-8 h-8 text-amber-400" />
                 </div>
-                <h2 className="text-2xl sm:text-4xl font-black">Video Wishes</h2>
+                <h2 className="text-2xl sm:text-4xl font-black">Video</h2>
               </div>
               <div className="flex-grow flex flex-col items-center justify-center p-6 sm:p-10 bg-slate-900/50 rounded-2xl sm:rounded-[2rem] border-2 border-slate-800 group/vid relative overflow-hidden">
                 <div className="absolute inset-0 bg-[url('https://picsum.photos/seed/vid-thumb/800/400')] bg-cover bg-center opacity-30 group-hover/vid:scale-110 transition-transform duration-700" />
                 <div className="absolute inset-0 bg-slate-900/40" />
                 <PlayCircle className="w-16 h-16 sm:w-24 sm:h-24 text-amber-500 relative z-10 group-hover/vid-card:scale-110 transition-transform" />
                 <div className="relative z-10 text-center mt-6">
-                  <p className="text-amber-400 font-bold text-base sm:text-xl uppercase tracking-widest mb-2">Unlocked & Ready</p>
                   <p className="text-slate-300 text-sm sm:text-base italic px-4 font-medium">Click to play your first birthday memories.</p>
                 </div>
               </div>
