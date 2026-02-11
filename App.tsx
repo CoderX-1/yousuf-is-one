@@ -146,7 +146,7 @@ const App: React.FC = () => {
   const targetYear = birthYear + 5;
 
   // Placeholder URLs - Users can replace these with real URLs
-  const videoUrl = "https://www.w3schools.com/html/mov_bbb.mp4"; // Replace with real video URL
+  const videoUrl = "video.mp4"; // Replace with real video URL
   const babyPhotos = [
     `https://github.com/CoderX-1/yousuf-is-one/blob/main/bacha.jpeg?raw=true`,
     `https://github.com/CoderX-1/yousuf-is-one/blob/main/bacha3.jpeg?raw=true`,
